@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Form Validation</title>
+</head>
+<body>
+    <div class="container">
+        <form id="userform">
+            <label for="firstname">First Name</label>
+            <input type="text" name="firstname" id="firstname"><br><br>
+
+            <label for="lastname">Last Name</label>
+            <input type="text" name="lastname" id="lastname"><br><br>
+
+            <label for="email">email</label>
+            <input type="email" name="email" id="email"><br><br>
+
+            <label for="checkboxes">Checkbox</label>
+
+            <input type="checkbox" name="option" id="option1" value="option1">
+            <label for="option1">option1</label>
+            <input type="checkbox" name="option" id="option2" value="option2">
+            <label for="option2">option2</label><br><br>
+
+            <label for="Gender">Gender</label>
+
+            <input type="radio" name="gender" id="male" value="male">
+            <label for="male">male</label>
+            <input type="radio" name="gender" id="female" value="female">
+            <label for="female">female</label><br><br>
+
+            <label for="comment">comment</label>
+            <textarea name="comment" id="comment"></textarea><br><br>
+
+            <label for="dropdown">dropdown</label>
+            <select name="dropdown" id="dropdown">
+                <option value="">select</option>
+                <option value="A">A</option>
+                <option value="B">B</option>
+                <option value="C">C</option>
+            </select><br><br>
+
+            <button type="button" name="submitbtn" id="submitbtn">Submit</button>
+        <button type="button" name="cancelbtn" id="cancelbtn">Cancel</button>
+        </form>
+        
+        <div id="tablecontainer"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
